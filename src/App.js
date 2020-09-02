@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.css";
 import { Container } from "@material-ui/core";
-import Fields from "./Components/Fields";
+import FormUserDetails from "./Components/FormUserDetails";
 
-function App() {
-  return (
-    <Container maxWidth="sm">
-      <Fields />
-    </Container>
-  );
-}
+const App = () => (
+  <Container maxWidth="sm">
+    <FormUserDetails />
+  </Container>
+);
 
 export default App;

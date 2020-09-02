@@ -32,9 +32,7 @@ module.exports = {
     "arrow-body-style": ["warn", "as-needed"],
     "object-shorthand": "warn",
     "react/prop-types": "off",
-    "prettier/prettier": ["error", {
-      "endOfLine":"auto"
-    }],
+    "prettier/prettier": ["warn", {"endOfLine":"auto"}],
   },
   settings: { react: { version: "detect" } },
 };
