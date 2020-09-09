@@ -7,6 +7,7 @@ import {
   Box,
   Card,
 } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 // Andrew Maxwell co-owner
 
@@ -133,7 +134,7 @@ const FormUserDetails = () => {
                 color="primary"
                 style={{ width: "100%" }}
                 size="large"
-                onClick={handleSubmit}
+                onClick={handleSubmit && <Link to="/login" />}
               >
                 Sign up
               </Button>
